@@ -50,6 +50,8 @@
 
         the tablename should be same as the tablename we given in the environment variable for the lambda function
 
+       make sure to use the correct schema for the redshift table and your csv file 
+
 
 refrence:https://youtu.be/JyQ9EFFR3n8?si=olfiauJZJwE-ZZ2e
         

@@ -1,10 +1,10 @@
-First make the S3 bucket.( assignmnet-raw-1)
+#First make the S3 bucket.( assignmnet-raw-1)
      set the S3 events for the lambda to trigger the S3 object 
      go to properties:
                      create Event
                      select the put and post
   
-Make the lambda function (codefors3) and set the role to give the permission ( AdminstratorAccess )
+#Make the lambda function (codefors3) and set the role to give the permission ( AdminstratorAccess )
   Make changes in the lambda function:
   1. Configuration : general configuration set the time limit to 5 min.
   2. Set the Environment Variable (optional for security purpose)
@@ -38,7 +38,7 @@ Make the lambda function (codefors3) and set the role to give the permission ( A
           create a  layer and then insert the dependancies (zip) files that we have downloaded using the Cloud9
           go to lambda then add the layer 
 
-Redshift :
+#Redshift :
          make the free-tier cluster and choose the custome for the user and password to create
          make the default workshop or you can change the name and create the namespace 
          select the query data and create the table using the sql cmd
@@ -49,4 +49,7 @@ Redshift :
           )
 
         the tablename should be same as the tablename we given in the environment variable for the lambda function
+
+
+refrence:https://youtu.be/JyQ9EFFR3n8?si=olfiauJZJwE-ZZ2e
         
